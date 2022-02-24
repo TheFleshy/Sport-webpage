@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 35px;
+}
+
+
+header .logo{
+    margin: -15px;
+}
+
+header .second-menu {
+    text-decoration: none;
+}
+
+header .second-menu li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px;
+}
+
+header .second-menu li a:link {
+    text-decoration: none;
+}
+
+header .second-menu .boja {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+}
+
+header .second-menu .boja li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+header .second-menu .boja li a:hover {
+    color: rgba(255, 0, 0, 0.63);
+}
+
+.main-nav {
+    background-color: black;
+    border-top: 4px gray solid;
+    border-bottom: 4px white solid;
+    padding-bottom: 75px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.main-nav .club{ 
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.main-nav .go {
+    color: #db545a;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav .go h1 {
+    font-size: 150px;
+}
+
+.second-section {
+    padding: 100px;
+    background-color: gray;
+    border-bottom: 4px black solid;
+}
+
+.second-section .int h1 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+.second-section p {
+    color: white;
+    text-align: center;
+}
+
+.second-section a {
+    margin-left: 100px;
+    background-color: #db545a;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    bottom: -33px;
+    width: 260px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 84%, 91% 100%, 0 100%, 0% 60%, 0 0);
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 4px white solid;
+}
+
+.second-section a:hover{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.63);
+}
+
+footer  {
+    margin-top: 35px  
+}
+
+footer .second-menu {
+    text-decoration: none;
+}
+
+footer .second-menu li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 5px;
+}
+
+footer .second-menu li a:link {
+    text-decoration: none;
+}
+
+footer .second-menu .boja {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+}
+
+footer .second-menu .boja li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+footer .second-menu .boja li a:hover {
+    color: rgba(255, 0, 0, 0.63);
+}

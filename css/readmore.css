@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 35px;
+    border-bottom: 4px gray solid;
+}
+
+
+header .logo{
+    margin: -15px;
+}
+
+header .second-menu {
+    text-decoration: none;
+}
+
+header .second-menu li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px;
+}
+
+header .second-menu li a:link {
+    text-decoration: none;
+}
+
+header .second-menu .boja {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+}
+
+header .second-menu .boja li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+header .second-menu .boja li a:hover {
+    color: rgba(255, 0, 0, 0.63);
+}
+
+.main-nav {
+    background-color: black;
+    padding: 100px;
+    border-bottom: 4px gray solid;
+}
+
+.main-nav h1 {
+    color: white;
+    text-align: center;
+}
+
+.main-nav img {
+    width: 400px;
+    height: auto;
+    margin-left: 363px;
+}
+
+.main-nav h3 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+footer  {
+    margin-top: 0;
+}
+
+footer .second-menu {
+    text-decoration: none;
+}
+
+footer .second-menu li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 30px; 
+}
+
+footer .second-menu li a:link {
+    text-decoration: none;
+}
